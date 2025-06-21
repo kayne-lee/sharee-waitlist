@@ -56,13 +56,13 @@ const Home = () => {
         <div className="max-w-md mx-auto text-center text-white">
           <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
             <CheckCircle className="h-16 w-16 text-yellow-300 mx-auto mb-4" />
-            <h2 className="text-2xl font-bold mb-4">You're on the list!</h2>
+            <h2 className="text-2xl font-bold mb-4">You&apos;re on the list!</h2>
             <p className="text-blue-100 mb-6">
-              Thanks for joining our waitlist, {name}! We'll notify you as soon as we launch.
+              Thanks for joining our waitlist, {name}! We&apos;ll notify you as soon as we launch.
             </p>
             <div className="bg-white/5 rounded-lg p-4 border border-white/10">
               <p className="text-sm text-blue-200">
-                🎉 You're waitlist member <span className="font-bold text-yellow-300">#{waitlistPosition || '1,247'}</span>
+                🎉 You&apos;re waitlist member <span className="font-bold text-yellow-300">#{waitlistPosition || '1,247'}</span>
               </p>
             </div>
           </div>
@@ -155,38 +155,38 @@ const Home = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              What's Coming
+              What&apos;s Coming
             </h2>
             <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-              We're building the most comprehensive rental marketplace you've ever seen
+              We&apos;re building the most comprehensive rental marketplace you&apos;ve ever seen
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
               {
-                title: "Smart Search",
-                description: "AI-powered search to find exactly what you need, when you need it"
+                title: "Experience-First Categories",
+                description: "Curated gear and equipment for activities like camping, skiing, golfing, photography, and events — all in one place."
               },
               {
-                title: "Verified Users",
-                description: "Every user is verified for safety and trust in your community"
+                title: "Verified Peer Rentals",
+                description: "Built-in ID verification and user reviews to ensure trust, safety, and accountability on both sides."
               },
               {
-                title: "Instant Booking",
-                description: "Book items instantly with our streamlined reservation system"
+                title: "Location-Based Discovery",
+                description: "Easily browse items available near you with filters for neighborhood, gear type, and pickup options."
               },
               {
-                title: "Local Focus",
-                description: "Find items in your neighborhood for convenient pickup and delivery"
+                title: "One-Time Use, No Ownership Stress",
+                description: "Affordable short-term access to high-cost items so you don&apos;t need to buy gear you&apos;ll only use once."
+              },
+              {
+                title: "Damage Protection",
+                description: "Optional coverage to protect against accidents through partner insurance provider, so both owners and renters feel secure."
               },
               {
                 title: "Fair Pricing",
-                description: "Transparent pricing with no hidden fees or surprise charges"
-              },
-              {
-                title: "24/7 Support",
-                description: "Round-the-clock customer support for all your rental needs"
+                description: "Start spending smart and using your money to access more experiences."
               }
             ].map((feature, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300">
