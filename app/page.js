@@ -202,7 +202,7 @@ const Home = () => {
       <footer className="py-8 text-center text-blue-200">
         <div className="max-w-4xl mx-auto px-4">
           <p className="text-sm">
-            By joining our waitlist, you'll be the first to know when we launch and get exclusive early access.
+            By joining our waitlist, you&apos;ll be the first to know when we launch and get exclusive early access.
           </p>
         </div>
       </footer>
